@@ -1,0 +1,8 @@
+numpy
+pandas
+keras
+sklearn
+xgboost
+torch
+tensorflow
+torchvision
