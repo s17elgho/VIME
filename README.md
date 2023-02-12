@@ -9,6 +9,6 @@ The semi-supervised learning is not working correctly and I'm still working on d
 So far Here are the accuracies that I get on the test set :
 | Method                             | Accuray |
 |------------------------------------|---------|
-| Supervised on 1K examples          | 88.37%  |
-| Self sup.only + Sup.on 1K examples | 90.26%  |
-| Semi-supervised                    | 86.43%   |
+| Supervised on 1K examples          | 88.81%  |
+| Self sup.only + Sup.on 1K examples | 90.97%  |
+| Semi-supervised                    | 89.43%   |
