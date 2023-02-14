@@ -18,5 +18,5 @@ In the notebook VIME_income_data.ipynb I tried self supervised learning . Howeve
 
 | Method                             | Accuray |
 |------------------------------------|---------|
-| Supervised on 10% of the data      | ~86.09%  |
-| Self sup.only + Sup.on 10% | ~83.65%  |
+| Supervised on 10% of the data      | ~86%  |
+| Self sup.only + Sup.on 10% | ~83%  |
