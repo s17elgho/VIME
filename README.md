@@ -9,6 +9,14 @@ The semi-supervised learning is not working correctly and I'm still working on d
 So far Here are the accuracies that I get on the test set :
 | Method                             | Accuray |
 |------------------------------------|---------|
-| Supervised on 1K examples          | 88.81%  |
-| Self sup.only + Sup.on 1K examples | 90.97%  |
-| Semi-supervised                    | 89.43%   |
+| Supervised on 1K examples          | ~88.16%  |
+| Self sup.only + Sup.on 1K examples | ~90.14%  |
+| Semi-supervised                    | ~88.89%   | 
+
+In the notebook VIME_income_data.ipynb I tried self supervised learning . However, I still get a better accuracy for the supervised xgboost model. This means that either I need to work on optimizing the hyperparameters or I need to change the loss definition on categorical variables.
+
+
+| Method                             | Accuray |
+|------------------------------------|---------|
+| Supervised on 10% of the data      | ~86.09%  |
+| Self sup.only + Sup.on 10% | ~83.65%  |

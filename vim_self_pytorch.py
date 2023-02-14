@@ -1,9 +1,9 @@
 import torch
 
 class VimPretext(torch.nn.Module):
-    def __init__(self):
+    def __init__(self,dim = 28*28):
         super().__init__()
-        self.dim = 28*28
+        self.dim = dim
 		# Building an linear encoder to predict feature and mask
         self.fc0 = torch.nn.Sequential(
 			torch.nn.Linear(self.dim,self.dim),
